@@ -13,7 +13,7 @@ public abstract class Engine {
     System.out.println("Engine is turned off!");
   }
 
-  public void powerOn() {
-    System.out.println("Engine is powering on!");
+  public void powerOn(int value) {
+    System.out.printf("Engine is powering at %d!", value);
   }
 }

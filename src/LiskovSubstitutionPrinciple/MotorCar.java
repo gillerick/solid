@@ -10,7 +10,7 @@ public class MotorCar implements Car {
 
   @Override
   public void accelerate() {
-    engine.powerOn();
+    engine.powerOn(100);
 
   }
 }
