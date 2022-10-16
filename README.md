@@ -28,7 +28,12 @@
   abstraction.
 
 ## Other Design Principles
+
 ### 6. Encapsulate What Varies
-- This principle suggests that one should identify the aspects of their application that vary and separate them from what stays the same.
+- This principle suggests that one should identify the aspects of their application that vary and separate them from
+  what stays the same.
 - This enables one to later alter or extend the parts that vary, but do it without affecting the parts that don't.
 
+### 7. Favour composition over inheritance (HAS-A > IS-A)
+- Even though inheritance is a powerful technique, it can easily be overused leading to rigid and inextensible designs.
+- `IS-A` is an inheritance relationship while `HAS-A` is a relationship of composition.
