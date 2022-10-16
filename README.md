@@ -20,6 +20,8 @@
 
 - Larger interfaces should be split into smaller ones. By doing so, we can ensure that the implementing classes only
   need to be concerned about the methods that are of interest to them.
+- Interfaces should be highly cohesive, meaning that they should have methods related to one another. Low cohesion
+  interfaces, however, have many unrelated methods.
 
 ### 5. Dependency Inversion
 
@@ -30,10 +32,15 @@
 ## Other Design Principles
 
 ### 6. Encapsulate What Varies
+
 - This principle suggests that one should identify the aspects of their application that vary and separate them from
   what stays the same.
 - This enables one to later alter or extend the parts that vary, but do it without affecting the parts that don't.
+- By pulling out and encapsulating the code that varies, we allow code that doesn't change to remain closed for
+  modification, improving the stability of our code over time.
 
 ### 7. Favour composition over inheritance (HAS-A > IS-A)
+
 - Even though inheritance is a powerful technique, it can easily be overused leading to rigid and inextensible designs.
+- Composition is a powerful technique that one should use when extending the behaviour of a class.
 - `IS-A` is an inheritance relationship while `HAS-A` is a relationship of composition.
