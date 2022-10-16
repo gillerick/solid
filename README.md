@@ -27,3 +27,8 @@
   implementations. High-level modules should not depend on the low-level module but both should depend on the
   abstraction.
 
+## Other Design Principles
+### 6. Encapsulate What Varies
+- This principle suggests that one should identify the aspects of their application that vary and separate them from what stays the same.
+- This enables one to later alter or extend the parts that vary, but do it without affecting the parts that don't.
+
