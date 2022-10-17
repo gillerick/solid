@@ -18,6 +18,34 @@
 - Given a variable of a given type, one should be able to assign it to a value that is a subtype of that type.
 - Differently put, if a class A is a subtype of class B, we should be able to replace B with A without disrupting the
   behaviour of our program.
+- In **Python** there is a unique feature called `Duck Typing` which permits classes with no formal superclass-subclass
+  relationship to be used in place of each other. It allows substitution without being part of a class hierarchy. This is shown below:
+
+  ```python
+  class X:
+      def meth(self, a):
+          return 2*a
+  
+  class Y:
+      def meth(self, a):
+          return a+a
+  ```
+  
+- An explicit superclass-subclass relationship for the code above would look like so:
+
+  ```python
+  class A(abc.ABC):
+      @abc.abstractmethod
+      def meth(self, a): ...
+  
+  class X(A):
+      def meth(self, a): 
+          return 2*a 
+  
+  class Y(A): 
+      def meth(self, a):
+          return a+a
+  ```
 
 ### 4. Interface Segregation Principle(ISP)
 
