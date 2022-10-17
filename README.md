@@ -25,6 +25,8 @@
 - Interfaces should be highly cohesive, meaning that they should have methods related to one another. Low cohesion
   interfaces, however, have many unrelated methods.
 - The explicit goal of ISP is to _isolate_ ripples of change so that change in one class does not impact other classes.
+- To observe ISP, once needs to examine a class from the viewpoint of the collaborators by answering the
+  question, `What methods and attributes does this collaborator require?`
 
 ### 5. Dependency Inversion
 
