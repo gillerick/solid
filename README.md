@@ -16,12 +16,15 @@
 - Differently put, if a class A is a subtype of class B, we should be able to replace B with A without disrupting the
   behaviour of our program.
 
-### 4. Interface Segregation
+### 4. Interface Segregation Principle(ISP)
 
+- ISP simply states; _No client should be forced to depend on methods it does not use_
+- Positively stated, _a client should depend on the smallest set of interfaces features_
 - Larger interfaces should be split into smaller ones. By doing so, we can ensure that the implementing classes only
   need to be concerned about the methods that are of interest to them.
 - Interfaces should be highly cohesive, meaning that they should have methods related to one another. Low cohesion
   interfaces, however, have many unrelated methods.
+- The explicit goal of ISP is to _isolate_ ripples of change so that change in one class does not impact other classes.
 
 ### 5. Dependency Inversion
 
