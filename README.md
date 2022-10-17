@@ -10,8 +10,11 @@
 - Classes should be open for extension but closed for modification. In doing so, we stop ourselves from modifying
   existing code and causing potential new bugs.
 
-### 3. Liskov Substitution
+### 3. Liskov Substitution Principle (LSP)
 
+- Replacing objects of some superclass S with objects of any subclass of S should not alter any of the provable
+  properties of a program.
+- This principle was originally called `strong behavioral subtyping`
 - Given a variable of a given type, one should be able to assign it to a value that is a subtype of that type.
 - Differently put, if a class A is a subtype of class B, we should be able to replace B with A without disrupting the
   behaviour of our program.
