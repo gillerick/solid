@@ -19,7 +19,8 @@
 - Differently put, if a class A is a subtype of class B, we should be able to replace B with A without disrupting the
   behaviour of our program.
 - In **Python** there is a unique feature called `Duck Typing` which permits classes with no formal superclass-subclass
-  relationship to be used in place of each other. It allows substitution without being part of a class hierarchy. This is shown below:
+  relationship to be used in place of each other. It allows substitution without being part of a class hierarchy. This
+  is shown below:
 
   ```python
   class X:
@@ -30,7 +31,7 @@
       def meth(self, a):
           return a+a
   ```
-  
+
 - An explicit superclass-subclass relationship for the code above would look like so:
 
   ```python
@@ -59,8 +60,11 @@
 - To observe ISP, once needs to examine a class from the viewpoint of the collaborators by answering the
   question, `What methods and attributes does this collaborator require?`
 
-### 5. Dependency Inversion
+### 5. Dependency Inversion Principle (DIP)
 
+- Robert C. Martin defines DIP as "High level modules should not depend on low-level modules. Both should depend on
+  abstractions. Abstractions should not depend on details. Details should depend on abstractions."
+- The common theme in the above definition is the **dependency on abstractions**.
 - This principle states that we must use abstraction (abstract classes and interfaces) instead of concrete
   implementations. High-level modules should not depend on the low-level module but both should depend on the
   abstraction.
