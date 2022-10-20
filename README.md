@@ -1,9 +1,15 @@
 ## SOLID Principles
 
-### 1. Single Responsibility
+### 1. Single Responsibility Principle (SRP)
 
 - It states that a class should only have one responsibility and furthermore, should only have one reason to change.
-  Benefits include: (1) Fewer test cases per class (2) Lower coupling due to fewer dependencies (3) Better organization
+- A class should have responsibility over a single part of the functionality provided by the software, and that
+  responsibility should be entirely encapsulated by the class.
+- Single in this sense is a question about finding the right level of abstraction.
+- The goal should be to have a class which can be summarized with a **concise** _responsibility statement_.
+- To identify the right levels of abstraction, one should make use of **GRASP** (General Responsibility Assignment Software
+  Patterns)
+- Benefits include: (1) Fewer test cases per class (2) Lower coupling due to fewer dependencies (3) Better organization
 
 ### 2. Open/Closed
 
