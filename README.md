@@ -107,6 +107,15 @@
 
 ### 2. Information Expert
 
+- An information expert has all the data required for a particular process.
+- An information expert parallels the idea of encapsulation, a class that holds all or some body of information. The
+  responsibility is based on the ownership of the information.
+- This principle attempts to answer the question, _What is the basic principle by which to assign responsibilities to
+  objects?_ and the answer to that would be, _assign a responsibility to the class that has the information needed to
+  fulfill it_
+- This is the most basic principle, because the truth is - if we do not have the data we need, we would not be able to
+  meet the requirements and assign responsibility anyway.
+
 ### 3. Low Coupling
 
 ### 4. Controller
