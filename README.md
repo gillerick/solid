@@ -96,6 +96,11 @@
 - Composition is a powerful technique that one should use when extending the behaviour of a class.
 - `IS-A` is an inheritance relationship while `HAS-A` is a relationship of composition.
 
+## Design Process
+
+- There are a few available tools that can help in ensuring good design - CRC (Class Responsibility Collaborators) and
+  TDD (Test-Driven Design)
+
 ## GRASP Patterns
 
 - Generally, responsibility can be (1) accomplished by a single object (2) a group of objects collaboratively working
