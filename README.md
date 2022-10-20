@@ -7,7 +7,8 @@
   responsibility should be entirely encapsulated by the class.
 - Single in this sense is a question about finding the right level of abstraction.
 - The goal should be to have a class which can be summarized with a **concise** _responsibility statement_.
-- To identify the right levels of abstraction, one should make use of **GRASP** (General Responsibility Assignment Software
+- To identify the right levels of abstraction, one should make use of **GRASP** (General Responsibility Assignment
+  Software
   Patterns)
 - Benefits include: (1) Fewer test cases per class (2) Lower coupling due to fewer dependencies (3) Better organization
 
@@ -93,13 +94,30 @@
 - `IS-A` is an inheritance relationship while `HAS-A` is a relationship of composition.
 
 ## GRASP Patterns
+
+- Generally, responsibility can be (1) accomplished by a single object (2) a group of objects collaboratively working
+- GRASP helps us in deciding which responsibility should be assigned to which object/class
+- The objects and responsibilities should be identified from the _problem domain_ and how various objects interact with
+  each other
+- The blueprints for those objects should then be defined, i.e. the class with methods implementing those
+  responsibilities.
+- Responsibility can be thought of as `an obligation to perform a task or know information` (Rebecca Wirfs-Brock)
+
 ### 1. Creator
+
 ### 2. Information Expert
+
 ### 3. Low Coupling
+
 ### 4. Controller
+
 ### 5. High Cohesion
+
 ### 6. Indirection
+
 ### 7. Polymorphism
+
 ### 8. Protected Variations
+
 ### 9. Pure Fabrication
 
