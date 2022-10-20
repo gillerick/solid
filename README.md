@@ -113,6 +113,13 @@
 
 ### 5. High Cohesion
 
+- This principle should be used as a reason for combining objects.
+- Cohesion is a measure of how strongly all responsibilities of an element are related or the degree to which the parts
+  inside an element belong together.
+- Classes with _low cohesion_ have unrelated data or behaviours
+- The principle attempts to answer the question, _How do we keep objects focused, understandable, manageable and as a
+  side effect support low coupling?_
+
 ### 6. Indirection
 
 ### 7. Polymorphism
