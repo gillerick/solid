@@ -76,6 +76,9 @@
   implementations. High-level modules should not depend on the low-level module but both should depend on the
   abstraction.
 - This allows for changing of both high-level and low-level modules with little risk to the other.
+- DIP advises us to design software so a class can be injected at run-time, as a parameter, or configuration option.
+- It tells us that direct reference between classes limits flexibility and that it's better to inject an implementation
+  class at run-time.
 
 ## Other Design Principles
 
