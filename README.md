@@ -91,3 +91,15 @@
 - Even though inheritance is a powerful technique, it can easily be overused leading to rigid and inextensible designs.
 - Composition is a powerful technique that one should use when extending the behaviour of a class.
 - `IS-A` is an inheritance relationship while `HAS-A` is a relationship of composition.
+
+## GRASP Patterns
+### 1. Creator
+### 2. Information Expert
+### 3. Low Coupling
+### 4. Controller
+### 5. High Cohesion
+### 6. Indirection
+### 7. Polymorphism
+### 8. Protected Variations
+### 9. Pure Fabrication
+
