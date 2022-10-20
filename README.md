@@ -122,6 +122,15 @@
 
 ### 6. Indirection
 
+- Indirection provides a reason for separating features into distinct classes.
+- Here, a new class that is not part of the problem domain is introduced to support certain technical considerations.
+- It relates to the [mediator](https://en.wikipedia.org/wiki/Mediator_pattern) pattern where communication between
+  objects is encapsulated within a mediator object and objects no longer
+  communicate directly with each other, but instead communicate through the mediator. This in turn reduces the
+  dependencies between communicating objects, thereby reducing coupling
+- It is worth noting that while indirection reduces coupling, it reduces readability and reasoning about the whole
+  system.
+
 ### 7. Polymorphism
 
 ### 8. Protected Variations
